@@ -95,11 +95,9 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Juniors (in video)</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Placeholder 1</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 2</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 3</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 4</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 5</li>
+            <li className="font-mono text-xs text-foreground/80">lokesh</li>
+            <li className="font-mono text-xs text-foreground/80">Atharv</li>
+            <li className="font-mono text-xs text-foreground/80">Adyant singh</li>
           </ul>
         </div>
 
@@ -107,11 +105,12 @@ export function ColophonSection() {
         <div className="col-span-1">
           <h4 className="font-mono text-[9px] uppercase tracking-[0.3em] text-muted-foreground mb-4">Seniors (in video)</h4>
           <ul className="space-y-2">
-            <li className="font-mono text-xs text-foreground/80">Placeholder 1</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 2</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 3</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 4</li>
-            <li className="font-mono text-xs text-foreground/80">Placeholder 5</li>
+            <li className="font-mono text-xs text-foreground/80">Varun merhotra</li>
+            <li className="font-mono text-xs text-foreground/80">ram vignesh</li>
+            <li className="font-mono text-xs text-foreground/80">ark mani</li>
+            <li className="font-mono text-xs text-foreground/80">mayank goyal</li>
+            <li className="font-mono text-xs text-foreground/80">aryan pawar</li>
+            <li className="font-mono text-xs text-foreground/80">shaleen jain</li>
           </ul>
         </div>
 
@@ -143,6 +142,18 @@ export function ColophonSection() {
           GOOGLE&apos;S TECHSTAR SWJ&apos;26 MUJ
         </p>
         <p className="font-mono text-[10px] text-muted-foreground">lets BUILDIT</p>
+      </div>
+
+      {/* Feedback Form */}
+      <div className="mt-12 text-center">
+        <a
+          href="https://forms.gle/aiyJBKZ4ZMV4EJqS8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block font-mono text-sm text-foreground hover:text-accent transition-colors duration-200 border border-border/40 px-6 py-3 hover:border-accent"
+        >
+          provide feedback on our idea!
+        </a>
       </div>
     </section>
   )
